@@ -1,0 +1,6 @@
+<!-- To test stripe webhook -->
+
+Run this command in your cli , before this you need to download stripe cli
+1. stripe login 
+2. stripe listen --forward-to localhost:3000/api/webhook
+This listen to any event that happens in stripe and forward it to localhost:3000/api/webhook
